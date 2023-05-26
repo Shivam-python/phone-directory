@@ -9,14 +9,15 @@ pip
 
 Set Up a Virtual Environment https://docs.python.org/3/library/venv.html
 
-Install the requirements pip install -r requirements.txt
+- Install the requirements : 
+    - pip install -r requirements.txt
 
-- Migrate Project Model to the Database 
-python manage.py makemigrations
-python manage.py migrate
+- Migrate Project Model to the Database. Run following commands in order :  
+    - python manage.py makemigrations
+    - python manage.py migrate
 
 - Run the Project 
-python manage.py runserver
+    - python manage.py runserver
 
 
 # 100 contacts dummy CSV has been added to import dummy contacts
